@@ -1,0 +1,29 @@
+.parent_div {
+position: absolute;
+bottom: 20px;
+width: 200%;
+}
+.button{
+
+display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+ 	
+}
+button:hover {background-color: black}
+.button:active {
+  background-color: blue;
+ 
+  transform: translateY(4px);
+}
+
+
+ 
